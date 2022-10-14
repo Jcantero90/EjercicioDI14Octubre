@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "9dc622a7-a3b3-4ee2-b565-7986320abb24",
+		"name": "Examen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22850433"
+	},
+	"item": [
+		{
+			"name": "Post Car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vehicleName\" : \"volvo\",\r\n\"vehicleType\" : \"Car\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vehicle/postVehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vehicle",
+						"postVehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Bus",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vehicleName\" : \"volvo\",\r\n\"vehicleType\" : \"Bus\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vehicle/postVehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vehicle",
+						"postVehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Truck",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vehicleName\" : \"volvo\",\r\n\"vehicleType\" : \"Truck\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vehicle/postVehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vehicle",
+						"postVehicle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Bike",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"vehicleName\" : \"volvo\",\r\n\"vehicleType\" : \"Bike\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/vehicle/postVehicle",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"vehicle",
+						"postVehicle"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
